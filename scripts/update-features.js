@@ -98,7 +98,7 @@ const updatedTemplate = template
 await fs.writeFile('data/features.js', updatedTemplate);
 
 // create test stubs for each feature
-const existingTests = await fs.readdir('test/cases');
+const existingTests = await fs.readdir('test/cases/features');
 const unimplementedTests = await fs.readdir('test/cases/unimplemented');
 const allTests = new Set([...existingTests, ...unimplementedTests]);
 const testTemplate = await fs.readFile('scripts/test.template.css', 'utf8');
@@ -111,8 +111,12 @@ await Promise.all(
     if (!allTests.has(filename)) {
       const { title } = unpackFeature(caniuse.features[name]);
       const link = fullDatabase.data[name] ? `https://caniuse.com/${name}` : 'This feature comes from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS';
+      const description = fullDatabase.data[name]?.description;
 
-      const stub = testTemplate.replace('FULL_NAME', title).replace('LINK_TO_FEATURE', link);
+      const stub = testTemplate
+        .replace('FULL_NAME', title)
+        .replace('LINK_TO_FEATURE', link)
+        .replace('DESCRIPTION_PLACEHOLDER', description ?? '');
 
       await fs.writeFile(
         pathToWrite,
@@ -124,7 +128,7 @@ await Promise.all(
 
 // Give warnings for test cases that don't have a feature
 const noFeatures = [];
-[...existingTests, ...unimplementedTests].forEach((filename) => {
+existingTests.forEach((filename) => {
   const name = filename.replace(/\.css$/, '');
   const featureExists = cssFeatures.some(([id]) => id === name);
   if (!featureExists) {

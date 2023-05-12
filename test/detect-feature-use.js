@@ -98,12 +98,12 @@ function runTest(tc, cssString, expected) {
 
 // read in the test cases from /cases/**/*.css
 const cases = [];
-for await (const tc of getFiles(joinPath(selfPath, 'cases'))) {
-  const cssString = readFileSync(tc).toString();
+for await (const caseFileName of getFiles(joinPath(selfPath, 'cases'))) {
+  const cssString = readFileSync(caseFileName).toString();
   const parsed = parseTestCase(cssString);
-  if (parsed) {
+  if (parsed && !caseFileName.includes('unimplemented')) {
     const testCase = {
-      name: tc,
+      name: caseFileName,
       expected: parsed.expected,
       cssString,
     };

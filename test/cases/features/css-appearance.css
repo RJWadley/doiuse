@@ -5,7 +5,15 @@ The `appearance` property defines how elements (particularly form controls) appe
 
 See: https://caniuse.com/css-appearance
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-appearance: 3
+*/
+
+.thing {
+  -webkit-appearance: value;
+  -moz-appearance: value;
+  appearance: value;
+}

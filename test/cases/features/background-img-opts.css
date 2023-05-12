@@ -5,13 +5,11 @@ New properties to affect background images, including background-clip, backgroun
 
 See: https://caniuse.com/background-img-opts
 
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-background-img-opts: 3
+background-img-opts: 4
 background-clip-text: 1
 */
 

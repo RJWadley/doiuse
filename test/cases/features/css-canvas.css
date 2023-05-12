@@ -5,7 +5,13 @@ Method of using HTML5 Canvas as a background image. Not currently part of any sp
 
 See: https://caniuse.com/css-canvas
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-canvas: 1
+*/
+
+.test {
+  background: -webkit-canvas(myCanvas);
+}

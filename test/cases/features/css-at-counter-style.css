@@ -5,7 +5,19 @@ The @counter-style CSS at-rule allows custom counter styles to be defined. A @co
 
 See: https://caniuse.com/css-at-counter-style
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-at-counter-style: 1
+*/
+
+@counter-style thumbs {
+  system: cyclic;
+  symbols: "\1F44D";
+  suffix: " ";
+}
+
+ul {
+  list-style: thumbs;
+}

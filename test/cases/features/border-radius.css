@@ -5,7 +5,19 @@ Method of making the border corners round. Covers support for the shorthand `bor
 
 See: https://caniuse.com/border-radius
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+border-radius: 6
+*/
+
+.test {
+  border-radius: 10px;
+  border-radius: 10px 10px 10px 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

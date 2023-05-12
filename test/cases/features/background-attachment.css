@@ -5,20 +5,20 @@ Method of defining how a background image is attached to a scrollable element. V
 
 See: https://caniuse.com/background-attachment
 
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-background-attachment: 4
+background-attachment: 6
 */
 
 .test {
   /* scroll is the default, so it shouldn't be flagged */
-  /* background-attachment: scroll; */
+  background-attachment: scroll; /* OK */
   background-attachment: fixed;
   background-attachment: local;
   background-attachment: fixed, local;
   background-attachment: local, fixed;
+  background-attachment: scroll, fixed;
+  background-attachment: fixed, scroll;
 }

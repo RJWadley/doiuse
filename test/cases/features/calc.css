@@ -5,7 +5,14 @@ Method of allowing calculated values for length units, i.e. `width: calc(100% - 
 
 See: https://caniuse.com/calc
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+calc: 2
+*/
+
+.test {
+  width: calc(100% - 80px);
+  width: calc(var(--width));
+}

@@ -5,7 +5,13 @@ Unit representing the width of the character "0" in the current font, of particu
 
 See: https://caniuse.com/ch-unit
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+ch-unit: 1
+*/
+
+.test {
+  width: 80ch;
+}

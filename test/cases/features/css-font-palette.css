@@ -12,5 +12,16 @@ TODO: write an implementation for this feature and move it to test/cases/feature
 
 /*
 expect:
-css-font-palette: 0
+css-font-palette: 1
 */
+
+@font-palette-values my-palette {
+  red: #f00;
+  green: #0f0;
+  blue: #00f;
+}
+
+.test {
+  font-family: my-palette;
+  font-palette: red;
+}

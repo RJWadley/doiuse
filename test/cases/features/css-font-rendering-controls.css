@@ -12,5 +12,12 @@ TODO: write an implementation for this feature and move it to test/cases/feature
 
 /*
 expect:
-css-font-rendering-controls: 0
+css-font-rendering-controls: 4
 */
+
+.test {
+  font-display: block;
+  font-display: swap;
+  font-display: fallback;
+  font-display: optional;
+}

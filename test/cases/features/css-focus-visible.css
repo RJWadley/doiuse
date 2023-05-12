@@ -12,5 +12,13 @@ TODO: write an implementation for this feature and move it to test/cases/feature
 
 /*
 expect:
-css-focus-visible: 0
+css-focus-visible: 1
 */
+
+.test:focus-visible {
+  color: red;
+}
+
+.test:focus {
+  color: blue;
+}

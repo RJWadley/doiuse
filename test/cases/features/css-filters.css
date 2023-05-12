@@ -5,12 +5,13 @@ Method of applying filter effects using the `filter` property to elements, match
 
 See: https://caniuse.com/css-filters
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-filters: 0
+css-filters: 1
 */
+
+.test {
+  filter: blur(5px);
+}

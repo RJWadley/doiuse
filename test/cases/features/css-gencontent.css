@@ -12,5 +12,13 @@ TODO: write an implementation for this feature and move it to test/cases/feature
 
 /*
 expect:
-css-gencontent: 0
+css-gencontent: 2
 */
+
+.test::before {
+  content: "before";
+}
+
+.test::after {
+  content: "after";
+}

@@ -12,5 +12,10 @@ TODO: write an implementation for this feature and move it to test/cases/feature
 
 /*
 expect:
-css-font-stretch: 0
+css-font-stretch: 2
 */
+
+.test {
+  font-stretch: ultra-condensed;
+  font-stretch: extra-condensed;
+}

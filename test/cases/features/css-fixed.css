@@ -12,5 +12,15 @@ TODO: write an implementation for this feature and move it to test/cases/feature
 
 /*
 expect:
-css-fixed: 0
+css-fixed: 1
 */
+
+.test {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+}

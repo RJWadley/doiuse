@@ -12,5 +12,13 @@ TODO: write an implementation for this feature and move it to test/cases/feature
 
 /*
 expect:
-css-focus-within: 0
+css-focus-within: 1
 */
+
+.test:focus-within {
+  color: red;
+}
+
+.test:focus {
+  color: blue;
+}

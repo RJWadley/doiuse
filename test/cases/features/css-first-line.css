@@ -12,5 +12,10 @@ TODO: write an implementation for this feature and move it to test/cases/feature
 
 /*
 expect:
-css-first-line: 0
+css-first-line: 1
 */
+
+::first-line {
+  color: blue;
+  text-transform: uppercase;
+}

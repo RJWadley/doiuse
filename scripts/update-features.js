@@ -35,7 +35,13 @@ await Promise.all(
     const link = fullDatabase.data[name]
       ? `https://caniuse.com/${name}`
       : `This feature comes from MDN: https://developer.mozilla.org/en-US/search?q=${fullTitle.replaceAll(' ', '+')}`;
-    const description = fullDatabase.data[name]?.description;
+    const description = fullDatabase.data[name]?.description
+      // replace all non-standard whitespace with normal spaces
+      ?.replaceAll(/\s/g, ' ')
+      // and nbsp is a special case
+      .replaceAll('\u00A0', ' ')
+      .trim();
+
     const stub = featureTemplate
       .replace('FEATURE_NAME', fullTitle)
       .replace('FEATURE_LINK', link)

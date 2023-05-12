@@ -1,3 +1,8 @@
-// TODO: implement system-ui value for font-family feature
+/**
+ * TODO: initially implement system-ui value for font-family
+ * Value for `font-family` that represents the default user interface font.
+ *
+ * See: https://caniuse.com/font-family-system-ui
+ */
+
 export default {};
-// See: https://caniuse.com/font-family-system-ui

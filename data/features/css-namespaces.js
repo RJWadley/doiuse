@@ -1,3 +1,8 @@
-// TODO: implement CSS namespaces feature
+/**
+ * TODO: initially implement CSS namespaces
+ * Using the `@namespace` at-rule, elements of other namespaces (e.g. SVG) can be targeted using the pipe (`|`) selector.
+ *
+ * See: https://caniuse.com/css-namespaces
+ */
+
 export default {};
-// See: https://caniuse.com/css-namespaces

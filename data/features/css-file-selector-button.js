@@ -1,3 +1,8 @@
-// TODO: implement ::file-selector-button CSS pseudo-element feature
+/**
+ * TODO: initially implement ::file-selector-button CSS pseudo-element
+ * No description available.
+ *
+ * See: This feature comes from MDN: https://developer.mozilla.org/en-US/search?q=::file-selector-button+CSS+pseudo-element
+ */
+
 export default {};
-// This feature comes from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS

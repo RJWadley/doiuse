@@ -1,3 +1,8 @@
-// TODO: implement selector list argument of :nth-child and :nth-last-child CSS pseudo-classes feature
+/**
+ * TODO: initially implement selector list argument of :nth-child and :nth-last-child CSS pseudo-classes
+ * The newest versions of `:nth-child()` and `:nth-last-child()` accept an optional `of S` clause which filters the children to only those which match the selector list `S`. For example, `:nth-child(1 of .foo)` selects the first child among the children that have the `foo` class (ignoring any non-`foo` children which precede that child). Similar to `:nth-of-type`, but for arbitrary selectors instead of only type selectors.
+ *
+ * See: https://caniuse.com/css-nth-child-of
+ */
+
 export default {};
-// See: https://caniuse.com/css-nth-child-of

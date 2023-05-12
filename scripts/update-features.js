@@ -26,13 +26,20 @@ const cssFeatures = Object.entries(caniuse.features)
 
 // for each feature, make sure that data/features/{feature}.js exists
 // if not, create it.
+const featureTemplate = await fs.readFile('scripts/feature.template.js', 'utf8');
 await Promise.all(
   cssFeatures.map(async ([name]) => {
     const filepath = path.resolve(`data/features/${name}.js`);
 
     const fullTitle = unpackFeature(caniuse.features[name]).title;
-    const link = fullDatabase.data[name] ? `See: https://caniuse.com/${name}` : 'This feature comes from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS';
-    const stub = `// TODO: implement ${fullTitle} feature\nexport default {};\n// ${link}\n`;
+    const link = fullDatabase.data[name]
+      ? `https://caniuse.com/${name}`
+      : `This feature comes from MDN: https://developer.mozilla.org/en-US/search?q=${fullTitle.replaceAll(' ', '+')}`;
+    const description = fullDatabase.data[name]?.description;
+    const stub = featureTemplate
+      .replace('FEATURE_NAME', fullTitle)
+      .replace('FEATURE_LINK', link)
+      .replace('FEATURE_DESCRIPTION', description ?? 'No description available.');
 
     try {
       await fs.access(filepath);
@@ -71,7 +78,7 @@ await Promise.all(
         const { title } = unpackFeature(caniuse.features[name]);
         const category = fullDatabase.data[name]?.categories.join(', ');
 
-        if (fileContent.includes('// TODO: implement')
+        if (fileContent.includes(' * TODO: initially implement ')
         || fileContent.trim() === '') {
           await fs.unlink(`data/features/${filename}`);
         } else {
@@ -114,9 +121,9 @@ await Promise.all(
       const description = fullDatabase.data[name]?.description;
 
       const stub = testTemplate
-        .replace('FULL_NAME', title)
-        .replace('LINK_TO_FEATURE', link)
-        .replace('DESCRIPTION_PLACEHOLDER', description ?? '');
+        .replace('FEATURE_NAME', title)
+        .replace('FEATURE_LINK', link)
+        .replace('FEATURE_DESCRIPTION', description ?? '');
 
       await fs.writeFile(
         pathToWrite,
@@ -129,6 +136,7 @@ await Promise.all(
 // Give warnings for test cases that don't have a feature
 const noFeatures = [];
 existingTests.forEach((filename) => {
+  if (!filename.endsWith('.css')) return;
   const name = filename.replace(/\.css$/, '');
   const featureExists = cssFeatures.some(([id]) => id === name);
   if (!featureExists) {

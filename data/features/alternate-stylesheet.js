@@ -1,3 +1,8 @@
-// TODO: implement Alternate stylesheet feature
+/**
+ * TODO: initially implement Alternate stylesheet
+ * No description available.
+ *
+ * See: This feature comes from MDN: https://developer.mozilla.org/en-US/search?q=Alternate+stylesheet
+ */
+
 export default {};
-// This feature comes from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS

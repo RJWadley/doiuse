@@ -1,3 +1,8 @@
-// TODO: implement CSS Paged Media (@page) feature
+/**
+ * TODO: initially implement CSS Paged Media (@page)
+ * CSS at-rule (`@page`) to define page-specific rules when printing web pages, such as margin per page and page dimensions.
+ *
+ * See: https://caniuse.com/css-paged-media
+ */
+
 export default {};
-// See: https://caniuse.com/css-paged-media

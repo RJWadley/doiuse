@@ -1,3 +1,8 @@
-// TODO: implement :has() CSS relational pseudo-class feature
+/**
+ * TODO: initially implement :has() CSS relational pseudo-class
+ * Select elements containing specific content. For example, `a:has(img)` selects all `<a>` elements that contain an `<img>` child.
+ *
+ * See: https://caniuse.com/css-has
+ */
+
 export default {};
-// See: https://caniuse.com/css-has

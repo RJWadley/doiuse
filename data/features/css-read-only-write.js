@@ -1,3 +1,8 @@
-// TODO: implement CSS :read-only and :read-write selectors feature
+/**
+ * TODO: initially implement CSS :read-only and :read-write selectors
+ * :read-only and :read-write pseudo-classes to match elements which are considered user-alterable
+ *
+ * See: https://caniuse.com/css-read-only-write
+ */
+
 export default {};
-// See: https://caniuse.com/css-read-only-write

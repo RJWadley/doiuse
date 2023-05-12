@@ -1,3 +1,8 @@
-// TODO: implement ui-serif, ui-sans-serif, ui-monospace and ui-rounded values for font-family feature
+/**
+ * TODO: initially implement ui-serif, ui-sans-serif, ui-monospace and ui-rounded values for font-family
+ * Allows more control when choosing system interface fonts
+ *
+ * See: https://caniuse.com/extended-system-fonts
+ */
+
 export default {};
-// See: https://caniuse.com/extended-system-fonts

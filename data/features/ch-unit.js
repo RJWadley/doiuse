@@ -1,3 +1,8 @@
-// TODO: implement ch (character) unit feature
+/**
+ * TODO: initially implement ch (character) unit
+ * Unit representing the width of the character "0" in the current font, of particular use in combination with monospace fonts.
+ *
+ * See: https://caniuse.com/ch-unit
+ */
+
 export default {};
-// See: https://caniuse.com/ch-unit

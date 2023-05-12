@@ -131,7 +131,8 @@ await Promise.all(
       const stub = testTemplate
         .replace('FEATURE_NAME', title)
         .replace('FEATURE_LINK', link)
-        .replace('FEATURE_DESCRIPTION', description ?? '');
+        .replace('FEATURE_DESCRIPTION', description ?? '')
+        .replace('FEATURE_ID', name);
 
       await fs.writeFile(
         pathToWrite,

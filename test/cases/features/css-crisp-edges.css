@@ -5,7 +5,18 @@ Scales images with an algorithm that preserves edges and contrast, without smoot
 
 See: https://caniuse.com/css-crisp-edges
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-crisp-edges: 2
+*/
+
+.test {
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* don't flag other values */
+  image-rendering: optimizeQuality;
+  image-rendering: optimizeSpeed;
+}

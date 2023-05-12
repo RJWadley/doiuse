@@ -5,7 +5,14 @@ Method of defining a conical or repeating conical color gradient as a CSS image.
 
 See: https://caniuse.com/css-conic-gradients
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-conic-gradients: 2
+*/
+
+.test {
+  background-image: conic-gradient(red, green, blue);
+  background-image: repeating-conic-gradient(red, green, blue);
+}

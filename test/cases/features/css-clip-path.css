@@ -5,7 +5,13 @@ Method of defining the visible region of an HTML element using SVG or a shape de
 
 See: https://caniuse.com/css-clip-path
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-clip-path: 1
+*/
+
+.test {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}

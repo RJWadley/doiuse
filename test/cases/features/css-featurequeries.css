@@ -5,7 +5,15 @@ CSS Feature Queries allow authors to condition rules based on whether particular
 
 See: https://caniuse.com/css-featurequeries
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-featurequeries: 1
+*/
+
+@supports (display: grid) {
+  .test {
+    display: grid;
+  }
+}

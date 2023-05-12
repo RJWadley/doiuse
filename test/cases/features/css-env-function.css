@@ -5,7 +5,14 @@ Usage of environment variables like `safe-area-inset-top`.
 
 See: https://caniuse.com/css-env-function
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-env-function: 2
+*/
+
+.test {
+  padding-top: env(safe-area-inset-top);
+  padding-top: env(safe-area-inset-top, 10px);
+}

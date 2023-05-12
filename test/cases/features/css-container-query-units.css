@@ -5,7 +5,18 @@ Container Query Units specify a length relative to the dimensions of a query con
 
 See: https://caniuse.com/css-container-query-units
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-container-query-units: 6
+*/
+
+.test {
+  font-size: 1cqw;
+  font-size: 1cqh;
+  font-size: 1cqi;
+  font-size: 1cqb;
+  font-size: 1cqmin;
+  font-size: 1cqmax;
+}

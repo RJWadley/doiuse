@@ -5,7 +5,13 @@ The CSS `color()` function allows the browser to display colors in any color spa
 
 See: https://caniuse.com/css-color-function
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-color-function: 1
+*/
+
+.test {
+  color: color(display-p3 0.3 0.3 0.3 / 1);
+}

@@ -5,7 +5,14 @@ Provides control over when elements are rendered, so rendering can be skipped fo
 
 See: https://caniuse.com/css-content-visibility
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-content-visibility: 2
+*/
+
+.test {
+  content-visibility: hidden;
+  content-visibility: visible;
+}

@@ -5,7 +5,17 @@ Matches elements based on their directionality. `:dir(ltr)` matches elements whi
 
 See: https://caniuse.com/css-dir-pseudo
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-dir-pseudo: 2
+*/
+
+:dir(rtl) {
+  background-color: red;
+}
+
+:dir(ltr) {
+  background-color: green;
+}

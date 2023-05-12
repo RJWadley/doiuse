@@ -5,7 +5,13 @@ The CSS `contain` property lets developers limit the scope of the browser's styl
 
 See: https://caniuse.com/css-containment
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-containment: 1
+*/
+
+.test {
+  contain: style;
+}

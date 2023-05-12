@@ -5,7 +5,21 @@ Size queries in Container Queries provide a way to query the size of a container
 
 See: https://caniuse.com/css-container-queries
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-container-queries: 2
+*/
+
+@container figure not style(--featured: true) {
+  figcaption {
+    /* Custom styling */
+  }
+}
+
+@container (min-width: 400px) {
+  figcaption {
+    /* Custom styling */
+  }
+}

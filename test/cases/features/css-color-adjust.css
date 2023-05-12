@@ -5,7 +5,13 @@ The `print-color-adjust` (or `-webkit-print-color-adjust` as prefixed in WebKit/
 
 See: https://caniuse.com/css-color-adjust
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect: css-color-adjust: 2
+*/
+
+.test {
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}

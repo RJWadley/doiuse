@@ -5,7 +5,17 @@ The `:default` pseudo-class matches checkboxes and radio buttons which are check
 
 See: https://caniuse.com/css-default-pseudo
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
+
+/*
+expect:
+css-default-pseudo: 2
+*/
+
+input:default {
+  box-shadow: 0 0 2px 1px coral;
+}
+
+input:default + label {
+  color: coral;
+}

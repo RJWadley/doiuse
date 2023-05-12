@@ -5,4 +5,7 @@
  * See: https://caniuse.com/devicepixelratio
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

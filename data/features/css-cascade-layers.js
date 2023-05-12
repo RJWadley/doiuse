@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-cascade-layers
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

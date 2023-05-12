@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-descendant-gtgt
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

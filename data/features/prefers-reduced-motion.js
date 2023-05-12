@@ -5,4 +5,7 @@
  * See: https://caniuse.com/prefers-reduced-motion
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

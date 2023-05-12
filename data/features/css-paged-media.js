@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-paged-media
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

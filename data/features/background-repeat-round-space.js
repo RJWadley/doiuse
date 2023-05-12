@@ -5,4 +5,7 @@
  * See: https://caniuse.com/background-repeat-round-space
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

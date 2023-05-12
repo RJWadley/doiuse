@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-scroll-timeline
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

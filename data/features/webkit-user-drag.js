@@ -5,4 +5,7 @@
  * See: https://caniuse.com/webkit-user-drag
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

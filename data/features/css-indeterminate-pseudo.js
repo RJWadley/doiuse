@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-indeterminate-pseudo
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

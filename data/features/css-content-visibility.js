@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-content-visibility
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

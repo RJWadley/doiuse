@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-text-justify
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

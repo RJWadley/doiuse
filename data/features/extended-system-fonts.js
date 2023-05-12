@@ -5,4 +5,7 @@
  * See: https://caniuse.com/extended-system-fonts
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

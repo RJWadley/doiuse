@@ -5,4 +5,7 @@
  * See: https://caniuse.com/prefers-color-scheme
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

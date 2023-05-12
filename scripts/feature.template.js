@@ -5,4 +5,7 @@
  * See: FEATURE_LINK
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

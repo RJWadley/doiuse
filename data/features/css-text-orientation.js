@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-text-orientation
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

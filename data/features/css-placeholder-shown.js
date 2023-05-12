@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-placeholder-shown
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

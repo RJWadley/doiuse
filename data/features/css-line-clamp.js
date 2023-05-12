@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-line-clamp
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

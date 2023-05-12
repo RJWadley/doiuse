@@ -5,4 +5,7 @@
  * See: https://caniuse.com/svg-css
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

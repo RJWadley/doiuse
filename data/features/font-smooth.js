@@ -5,4 +5,7 @@
  * See: https://caniuse.com/font-smooth
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

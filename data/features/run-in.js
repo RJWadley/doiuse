@@ -5,4 +5,7 @@
  * See: https://caniuse.com/run-in
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

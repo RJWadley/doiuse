@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-color-adjust
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

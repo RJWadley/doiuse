@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-when-else
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-default-pseudo
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

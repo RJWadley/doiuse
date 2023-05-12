@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-font-rendering-controls
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

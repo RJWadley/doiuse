@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-letter-spacing
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

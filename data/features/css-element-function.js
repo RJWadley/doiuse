@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-element-function
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

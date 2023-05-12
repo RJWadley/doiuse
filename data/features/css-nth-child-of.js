@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-nth-child-of
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

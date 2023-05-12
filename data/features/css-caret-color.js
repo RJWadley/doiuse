@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-caret-color
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

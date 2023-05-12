@@ -5,4 +5,7 @@
  * See: https://caniuse.com/currentcolor
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

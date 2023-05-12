@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-container-queries
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

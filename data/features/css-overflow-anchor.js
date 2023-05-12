@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-overflow-anchor
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

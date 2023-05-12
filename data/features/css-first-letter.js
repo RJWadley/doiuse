@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-first-letter
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

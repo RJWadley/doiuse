@@ -5,4 +5,7 @@
  * See: https://caniuse.com/flow-root
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

@@ -5,4 +5,7 @@
  * See: https://caniuse.com/getcomputedstyle
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

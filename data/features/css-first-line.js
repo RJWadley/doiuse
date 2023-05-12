@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-first-line
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

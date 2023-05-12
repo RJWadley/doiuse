@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-deviceadaptation
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

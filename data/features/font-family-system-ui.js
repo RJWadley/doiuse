@@ -5,4 +5,7 @@
  * See: https://caniuse.com/font-family-system-ui
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

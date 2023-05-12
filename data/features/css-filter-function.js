@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-filter-function
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

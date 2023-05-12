@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-paint-api
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

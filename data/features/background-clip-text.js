@@ -5,4 +5,7 @@
  * See: https://caniuse.com/background-clip-text
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

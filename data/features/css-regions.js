@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-regions
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

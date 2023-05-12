@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-not-sel-list
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

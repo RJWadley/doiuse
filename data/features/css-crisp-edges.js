@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-crisp-edges
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

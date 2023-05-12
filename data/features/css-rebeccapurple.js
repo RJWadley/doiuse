@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-rebeccapurple
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

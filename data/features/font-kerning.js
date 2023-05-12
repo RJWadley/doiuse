@@ -5,4 +5,7 @@
  * See: https://caniuse.com/font-kerning
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

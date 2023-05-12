@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-hanging-punctuation
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

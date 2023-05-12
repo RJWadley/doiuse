@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-media-interaction
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

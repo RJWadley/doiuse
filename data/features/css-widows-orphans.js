@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-widows-orphans
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

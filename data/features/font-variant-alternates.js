@@ -5,4 +5,7 @@
  * See: https://caniuse.com/font-variant-alternates
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

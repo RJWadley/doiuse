@@ -5,4 +5,7 @@
  * See: https://caniuse.com/text-emphasis
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

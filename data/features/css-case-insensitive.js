@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-case-insensitive
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

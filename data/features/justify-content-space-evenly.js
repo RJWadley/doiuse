@@ -5,4 +5,7 @@
  * See: https://caniuse.com/justify-content-space-evenly
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

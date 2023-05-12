@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-in-out-of-range
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

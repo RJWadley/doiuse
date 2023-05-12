@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css3-attr
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

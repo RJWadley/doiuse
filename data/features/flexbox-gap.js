@@ -5,4 +5,7 @@
  * See: https://caniuse.com/flexbox-gap
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

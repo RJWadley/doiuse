@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-text-align-last
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

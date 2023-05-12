@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-boxdecorationbreak
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

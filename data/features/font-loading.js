@@ -5,4 +5,7 @@
  * See: https://caniuse.com/font-loading
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

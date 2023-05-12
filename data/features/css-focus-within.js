@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-focus-within
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

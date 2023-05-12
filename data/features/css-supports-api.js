@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-supports-api
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

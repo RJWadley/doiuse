@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-subgrid
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

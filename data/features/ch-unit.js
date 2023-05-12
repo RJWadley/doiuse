@@ -5,4 +5,7 @@
  * See: https://caniuse.com/ch-unit
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

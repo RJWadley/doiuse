@@ -5,4 +5,7 @@
  * See: https://caniuse.com/viewport-unit-variants
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

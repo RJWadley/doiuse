@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-writing-mode
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

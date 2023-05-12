@@ -5,4 +5,7 @@
  * See: https://caniuse.com/css-text-indent
  */
 
+/**
+ * @type {import('../features').Feature}
+ */
 export default {};

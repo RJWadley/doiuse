@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/anandthakker/doiuse.svg?branch=master)](https://travis-ci.org/anandthakker/doiuse)
 [![Release Notes](https://release-notes.com/badges/v2.svg)](https://release-notes.com/@open-source-community/anandthakker-doiuse)
 
 # doiuse

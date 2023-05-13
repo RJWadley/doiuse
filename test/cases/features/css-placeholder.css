@@ -5,12 +5,13 @@ The ::placeholder pseudo-element represents placeholder text in an input field: 
 
 See: https://caniuse.com/css-placeholder
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-placeholder: 0
+css-placeholder: 1
 */
+
+.test::placeholder {
+  color: red;
+}

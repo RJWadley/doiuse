@@ -5,12 +5,13 @@ A CSS keyword value that resets a property's value to the default specified by t
 
 See: https://caniuse.com/css-revert-value
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-revert-value: 0
+css-revert-value: 1
 */
+
+.test {
+  display: revert;
+}

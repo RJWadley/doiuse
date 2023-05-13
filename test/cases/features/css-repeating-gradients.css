@@ -5,12 +5,14 @@ Method of defining a repeating linear or radial color gradient as a CSS image.
 
 See: https://caniuse.com/css-repeating-gradients
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-repeating-gradients: 0
+css-repeating-gradients: 2
 */
+
+.test {
+  background: repeating-linear-gradient(45deg, red, yellow 10%, green 20%);
+  background: repeating-radial-gradient(circle, red, yellow 10%, green 20%);
+}

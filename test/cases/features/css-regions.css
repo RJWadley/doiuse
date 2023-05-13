@@ -5,12 +5,16 @@ Method of flowing content into multiple elements, allowing magazine-like layouts
 
 See: https://caniuse.com/css-regions
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-regions: 0
+css-regions: 4
 */
+
+.test {
+  flow-into: test;
+  flow-from: test;
+  -webkit-flow-into: test;
+  -webkit-flow-from: test;
+}

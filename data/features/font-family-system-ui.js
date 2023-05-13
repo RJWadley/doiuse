@@ -1,8 +1,7 @@
 /**
  * TODO: initially implement system-ui value for font-family
  * Value for `font-family` that represents the default user interface font.
- *
- * See: https://caniuse.com/font-family-system-ui
+ * @see https://caniuse.com/font-family-system-ui
  */
 
 /**

@@ -5,12 +5,14 @@ The `lch()` and `lab()` color functions are based on the CIE LAB color space, re
 
 See: https://caniuse.com/css-lch-lab
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-lch-lab: 0
+css-lch-lab: 2
 */
+
+.test {
+  color: lch(90% 50 30);
+  color: lab(90% 50 30);
+}

@@ -5,12 +5,17 @@ CSS property that will contain text to a given amount of lines when used in comb
 
 See: https://caniuse.com/css-line-clamp
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-line-clamp: 0
+css-line-clamp: 2
 */
+
+.test {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

@@ -9,4 +9,4 @@ import { checkSelector } from '../../utils/util.js';
 /**
  * @type {import('../features').Feature}
  */
-export default checkSelector('::first-letter');
+export default checkSelector(':first-letter');

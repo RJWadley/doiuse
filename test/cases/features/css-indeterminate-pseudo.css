@@ -5,12 +5,14 @@ The `:indeterminate` pseudo-class matches indeterminate checkboxes, indeterminat
 
 See: https://caniuse.com/css-indeterminate-pseudo
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-indeterminate-pseudo: 0
+css-indeterminate-pseudo: 1
 */
+
+/* Selects any <input> whose state is indeterminate */
+input:indeterminate {
+  background: lime;
+}

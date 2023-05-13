@@ -5,12 +5,23 @@ Method of controlling when words at the end of lines should be hyphenated using 
 
 See: https://caniuse.com/css-hyphens
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-hyphens: 0
+css-hyphens: 3
 */
+
+dd {
+  width: 55px;
+  border: 1px solid black;
+}
+dd.none {
+  hyphens: none;
+}
+dd.manual {
+  hyphens: manual;
+}
+dd.auto {
+  hyphens: auto;
+}

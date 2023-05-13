@@ -5,12 +5,13 @@ Allows some punctuation characters from start (or the end) of text elements to b
 
 See: https://caniuse.com/css-hanging-punctuation
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-hanging-punctuation: 0
+css-hanging-punctuation: 1
 */
+
+.test {
+  hanging-punctuation: first;
+}

@@ -1,5 +1,6 @@
 /**
- * TODO: initially implement FEATURE_NAME
+ * TODO: initially implement feature
+ * FEATURE_NAME
  * FEATURE_DESCRIPTION
  * @see FEATURE_LINK
  */

@@ -1,5 +1,6 @@
 /**
- * TODO: initially implement CSS text-justify
+ * TODO: initially implement feature
+ * CSS text-justify
  * CSS property to define how text should be justified when `text-align: justify` is set.
  * @see https://caniuse.com/css-text-justify
  */

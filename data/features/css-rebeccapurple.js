@@ -1,5 +1,6 @@
 /**
- * TODO: initially implement Rebeccapurple color
+ * TODO: initially implement feature
+ * Rebeccapurple color
  * The new color added in CSS Color Module Level 4
  * @see https://caniuse.com/css-rebeccapurple
  */

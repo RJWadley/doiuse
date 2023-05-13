@@ -1,5 +1,6 @@
 /**
- * TODO: initially implement CSS unicode-bidi property
+ * TODO: initially implement feature
+ * CSS unicode-bidi property
  * No description available.
  * @see This feature comes from MDN: https://developer.mozilla.org/en-US/search?q=CSS+unicode-bidi+property
  */

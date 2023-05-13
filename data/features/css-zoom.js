@@ -1,5 +1,6 @@
 /**
- * TODO: initially implement CSS zoom
+ * TODO: initially implement feature
+ * CSS zoom
  * Non-standard method of scaling content.
  * @see https://caniuse.com/css-zoom
  */

@@ -1,5 +1,6 @@
 /**
- * TODO: initially implement CSS font-variant-numeric
+ * TODO: initially implement feature
+ * CSS font-variant-numeric
  * CSS property that provides different ways of displaying numbers, fractions, and ordinal markers.
  * @see https://caniuse.com/font-variant-numeric
  */

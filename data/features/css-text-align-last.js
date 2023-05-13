@@ -1,5 +1,6 @@
 /**
- * TODO: initially implement CSS3 text-align-last
+ * TODO: initially implement feature
+ * CSS3 text-align-last
  * CSS property to describe how the last line of a block or a line right before a forced line break when `text-align` is `justify`.
  * @see https://caniuse.com/css-text-align-last
  */

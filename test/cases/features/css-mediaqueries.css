@@ -5,12 +5,15 @@ Method of applying styles based on media information. Includes things like page 
 
 See: https://caniuse.com/css-mediaqueries
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-mediaqueries: 0
+css-mediaqueries: 1
 */
+
+@media (min-width: 700px) {
+  .test {
+    color: red;
+  }
+}

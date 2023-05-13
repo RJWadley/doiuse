@@ -5,12 +5,35 @@ CSS nesting provides the ability to nest one style rule inside another, with the
 
 See: https://caniuse.com/css-nesting
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-nesting: 0
+css-nesting: 2
 */
+
+.test {
+  color: red;
+
+  .child {
+    color: blue;
+  }
+}
+
+.test {
+  color: red;
+}
+
+.test .child {
+  color: blue;
+}
+
+.card {
+  font-size: 1rem;
+
+  @media (width >= 1024px) {
+    &.large {
+      font-size: 1.25rem;
+    }
+  }
+}

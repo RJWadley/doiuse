@@ -5,12 +5,15 @@ Originally a single property for controlling overflowing content in both horizon
 
 See: https://caniuse.com/css-overflow
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-overflow: 0
+css-overflow: 3
 */
+
+.test {
+  overflow: auto;
+  overflow-x: auto;
+  overflow-y: auto;
+}

@@ -5,12 +5,15 @@ More advanced mathematical expressions in addition to `calc()`
 
 See: https://caniuse.com/css-math-functions
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-math-functions: 0
+css-math-functions: 3
 */
+
+.test {
+  width: min(100px, 50%);
+  width: max(100px, 50%);
+  width: clamp(100px, 50%, 200px);
+}

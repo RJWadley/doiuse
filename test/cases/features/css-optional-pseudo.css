@@ -5,12 +5,13 @@ The `:optional` pseudo-class matches form inputs (`<input>`, `<textarea>`, `<sel
 
 See: https://caniuse.com/css-optional-pseudo
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-optional-pseudo: 0
+css-optional-pseudo: 1
 */
+
+.test:optional {
+  color: red;
+}

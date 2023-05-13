@@ -12,5 +12,13 @@ TODO: write an implementation for this feature and move it to test/cases/feature
 
 /*
 expect:
-css-nth-child-of: 0
+css-nth-child-of: 2
 */
+
+.test:nth-child(1 of .foo) {
+  color: red;
+}
+
+.test:nth-last-child(1 of .foo) {
+  color: red;
+}

@@ -5,12 +5,25 @@ The `:is()` (formerly `:matches()`, formerly `:any()`) pseudo-class checks wheth
 
 See: https://caniuse.com/css-matches-pseudo
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-matches-pseudo: 0
+css-matches-pseudo: 4
 */
+
+.test:is(.foo, .bar) {
+  color: red;
+}
+
+.test:matches(.foo, .bar) {
+  color: red;
+}
+
+.test:any(.foo, .bar) {
+  color: red;
+}
+
+.test:where(.foo, .bar) {
+  color: red;
+}

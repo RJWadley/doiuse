@@ -5,12 +5,33 @@ Allows a media query to be set based on the presence and accuracy of the user's 
 
 See: https://caniuse.com/css-media-interaction
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-media-interaction: 0
+css-media-interaction: 4
 */
+
+@media (pointer: none) {
+  .test {
+    color: red;
+  }
+}
+
+@media (any-pointer: none) {
+  .test {
+    color: red;
+  }
+}
+
+@media (hover: none) {
+  .test {
+    color: red;
+  }
+}
+
+@media (any-hover: none) {
+  .test {
+    color: red;
+  }
+}

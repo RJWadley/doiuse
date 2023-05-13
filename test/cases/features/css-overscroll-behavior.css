@@ -5,12 +5,15 @@ CSS property to control the behavior when the scroll position of a scroll contai
 
 See: https://caniuse.com/css-overscroll-behavior
 
-TODO: create a test for this feature and move it to test/cases/unimplemented/
-TODO: write an implementation for this feature and move it to test/cases/features/
-
 */
 
 /*
 expect:
-css-overscroll-behavior: 0
+css-overscroll-behavior: 3
 */
+
+.test {
+  overscroll-behavior: auto;
+  overscroll-behavior-x: auto;
+  overscroll-behavior-y: auto;
+}

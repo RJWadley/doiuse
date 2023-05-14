@@ -1,6 +1,6 @@
 {
   "name": "doiuse",
-  "version": "6.0.0",
+  "version": "6.1.0",
   "description": "Lint CSS for browser support against caniuse database",
   "main:": "./exports/index.cjs",
   "type": "module",
@@ -28,8 +28,9 @@
     "caniuse",
     "stylelint"
   ],
-  "author": "Carlos Lopez Jr.",
   "contributors": [
+    "Robbie Wadley (https://github.com/RJWadley)",
+    "Carlos Lopez Jr. (https://github.com/clshortfuse)",
     "Anand Thakker <mail@anandthakker.net> (http://www.anandthakker.net/)",
     "Piotr Kuczynski <piotr.kuczynski@gmail.com> (https://github.com/pkuczynski)"
   ],

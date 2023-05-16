@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## 6.1.1 (2023-05-15)
+
+* Fixed a bug where gradients could trigger css-relative-colors
+
+## 6.1.0 (2023-05-13)
+
 * Added support for [alternate-stylesheet](https://caniuse.com/alternate-stylesheet)
 * Added support for [background-attachment](https://caniuse.com/background-attachment)
 * Added support for [background-clip-text](https://caniuse.com/background-clip-text)

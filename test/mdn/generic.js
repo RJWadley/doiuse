@@ -16,7 +16,7 @@ test('partial support does not flag outline in ie 11', async (t) => {
     },
   })).process(css);
 
-  // make sure onFeatureUsage was called
+  // make sure onFeatureUsage was not called
   t.equal(featureCount, 0);
 });
 
@@ -35,4 +35,36 @@ test('partial support does flag outline-offset in ie 11', async (t) => {
 
   // make sure onFeatureUsage was called
   t.equal(featureCount, 1);
+});
+
+// tests for https://github.com/anandthakker/doiuse/issues/106
+
+test('partial support does not flag text-decoration-style for firefox (65+) and chrome (71+)', async (t) => {
+  const css = '.test { text-decoration-style: solid; }';
+  let featureCount = 0;
+
+  await postcss(new DoIUse({
+    browsers: ['chrome >= 71', 'firefox >= 65'],
+    onFeatureUsage: () => {
+      featureCount += 1;
+    },
+  })).process(css);
+
+  // make sure onFeatureUsage was not called
+  t.equal(featureCount, 0);
+});
+
+test('partial support does not flag text-decoration-line in chrome 89', async (t) => {
+  const css = '.test { text-decoration-line: underline; }';
+  let featureCount = 0;
+
+  await postcss(new DoIUse({
+    browsers: ['chrome 89'],
+    onFeatureUsage: () => {
+      featureCount += 1;
+    },
+  })).process(css);
+
+  // make sure onFeatureUsage was not called
+  t.equal(featureCount, 0);
 });

@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Check partially supported declaration-value pairs against MDN data for fewer false positives with partially supported features
+
 ## 6.1.1 (2023-05-15)
 
 * Fixed a bug where gradients could trigger css-relative-colors

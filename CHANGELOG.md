@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 6.2.0 (2023-05-27)
 
 * Check partially supported declaration-value pairs against MDN data for fewer false positives with partially supported features
 
